@@ -1,0 +1,88 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@memoryplugin/mcp-server"],
+      "env": {
+        "MEMORY_AUTH_TOKEN": "${MEMORY_AUTH_TOKEN}",
+        "MEMORY_API_BASE": "https://www.memoryplugin.com/api"
+      }
+    }
+  },
+  "memoryBuckets": {
+    "whisperx_astronomical": {
+      "description": "Audio processing with 216-418x realtime speed",
+      "priority": "immediate",
+      "repo": "GlacierEQ/whisperX",
+      "issue": 12,
+      "metrics": {
+        "target_speed": "216-418x realtime",
+        "gpu_memory": "<4GB",
+        "accuracy_wer": "5.63-12%",
+        "diarization": "100x faster"
+      }
+    },
+    "quantum_transcendence": {
+      "description": "AI consciousness platform with 703.5MB memory constellation",
+      "priority": "high",
+      "repo": "GlacierEQ/aspen-grove-quantum-transcendence",
+      "issue": 3,
+      "infrastructure": [
+        "PostgreSQL cluster",
+        "Neo4j graph database",
+        "Qdrant vector database",
+        "Redis cache",
+        "HashiCorp Vault"
+      ],
+      "agent_count": 400000,
+      "memory_target": "703.5MB"
+    },
+    "constitutional_warfare": {
+      "description": "Legal automation for Case 1FDV-23-0001009",
+      "priority": "urgent",
+      "repo": "GlacierEQ/hawaii-family-court-legal-automation",
+      "case_id": "1FDV-23-0001009",
+      "deadlines": [
+        {"date": "2025-11-17", "event": "Casey birthday - family reunification"},
+        {"date": "2025-11-29", "event": "Kekoa birthday - child welfare critical"}
+      ],
+      "federal_agencies": ["DOJ", "FBI", "Congress", "SCOTUS"]
+    },
+    "fileboss_enterprise": {
+      "description": "Production CI/CD pipeline and file processing",
+      "priority": "high",
+      "repo": "GlacierEQ/FILEBOSS",
+      "issue": 35,
+      "workflows": [
+        "ci.yml - Multi-OS testing",
+        "docker.yml - Container build/publish",
+        "codeql.yml - Security scanning",
+        "release.yml - Automated releases",
+        "auto-label.yml - Issue automation",
+        "stale.yml - Issue management"
+      ]
+    },
+    "github_orchestration": {
+      "description": "674-repository ecosystem coordination",
+      "priority": "ongoing",
+      "total_repos": 674,
+      "active_issues": 9,
+      "workflow_failures": 2017,
+      "integrations": ["GitHub", "Notion", "Linear", "Slack", "Gmail"]
+    }
+  },
+  "crossPlatformSync": {
+    "enabled": true,
+    "platforms": [
+      "ChatGPT",
+      "Claude Desktop",
+      "Perplexity",
+      "GitHub Copilot",
+      "Cursor",
+      "Cline",
+      "Aider"
+    ],
+    "syncInterval": "realtime",
+    "tokenOptimization": "90%"
+  }
+}
